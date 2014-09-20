@@ -1,4 +1,4 @@
-oc-rtl-plugin
+Right-to-Left Backend Skin
 =============
 
 This plugin adds Right-To-Left support to OctoberCMS Backend
