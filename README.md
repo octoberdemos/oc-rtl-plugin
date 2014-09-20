@@ -32,19 +32,19 @@ There are two ways to manipulate the backend, you can either override assets or 
 
 Below you can see an example skin structure:
 
-plugins/
-  acme/                      <== Plugin starts here
-    demo/
-      skins/                 <== Skins folder
+    plugins/
+      acme/                      <== Plugin starts here
+        demo/
+          skins/                 <== Skins folder
 
-        custom/              <== Skin resource directory
-            assets/          <== Assets directory
-              css/
-                october.css  <== CSS override file
-            layouts/         <== Layouts directory
-                _head.htm    <== Layout override file
+            custom/              <== Skin resource directory
+                assets/          <== Assets directory
+                  css/
+                    october.css  <== CSS override file
+                layouts/         <== Layouts directory
+                    _head.htm    <== Layout override file
 
-        Custom.php           <== Skin registration file
+            Custom.php           <== Skin registration file
 
 The **Skin resource directory** should be the same name as the **Skin registration file** but in lower case. It contains files that will override the base assets found in the backend.
 
