@@ -63,3 +63,31 @@ The **Layout override file** called **_head.htm** will override the following:
 
     // Skin override file
     plugins/acme/demo/skins/custom/layouts/_head.htm
+
+Inside the **Skin registation file** it should simply provide a name:
+
+    <?php namespace Acme\Demo\Skins;
+
+    use Backend\Classes\Skin;
+
+    /**
+     * Custom skin information file
+     *
+     * @package acme\demo
+     * @author Alexey Bobkov, Samuel Georges
+     */
+
+    class RightToLeft extends Skin
+    {
+
+        /**
+         * {@inheritDoc}
+         */
+        public function skinDetails()
+        {
+            return [
+                'name' => 'Custom skin'
+            ];
+        }
+
+    }

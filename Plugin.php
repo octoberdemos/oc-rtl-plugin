@@ -3,7 +3,7 @@
 use System\Classes\PluginBase;
 
 /**
- * Rtl Plugin Information File
+ * RightToLeft Plugin Information File
  */
 class Plugin extends PluginBase
 {

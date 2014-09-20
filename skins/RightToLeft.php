@@ -3,9 +3,9 @@
 use Backend\Classes\Skin;
 
 /**
- * Standard skin information file
+ * RTL skin information file
  *
- * @package october\backend
+ * @package acme\rtl
  * @author Alexey Bobkov, Samuel Georges
  */
 
