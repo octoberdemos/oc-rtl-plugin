@@ -5,6 +5,10 @@ This plugin adds Right-To-Left support to OctoberCMS Backend
 
 ## How to use this plugin
 
+Download the plugin files and copy them to the directory:
+
+* **plugins/acme/rtl/**
+
 Update the CMS configuration file `app/config/cms.php`:
 
 ```
