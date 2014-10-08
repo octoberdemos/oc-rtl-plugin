@@ -1,0 +1,82 @@
+.report-container > ul .item .content .close {
+  right: auto;
+  left: 10px;
+}
+.report-container > ul .item .content .edit-widget:before{
+    left: auto;
+    right: 0;
+}
+.report-container > ul.add-delete .item .content .edit-widget{
+    left: 30px;
+    right: auto;
+}
+.report-container > ul .item .content .drag-handle{
+    right: 15px;
+    left: auto;
+}
+.report-widget h3{
+    padding-right: 15px;
+}
+
+.control-assetlist p.parent.active a:after,
+.control-assetlist ul li.active a:after {
+  left: auto;
+  right: 0;
+}
+.control-assetlist p.parent a.link,
+.control-assetlist ul li a.link {
+  padding: 10px 20px 10px 50px;
+}
+.control-assetlist p.parent.directory a.link,
+.control-assetlist ul li.directory a.link,
+.control-assetlist p.parent.parent a.link,
+.control-assetlist ul li.parent a.link {
+  padding-left: auto;
+  padding-right: 40px;
+}
+.control-assetlist p.parent.directory a.link:after,
+.control-assetlist ul li.directory a.link:after,
+.control-assetlist p.parent.parent a.link:after,
+.control-assetlist ul li.parent a.link:after {
+  left: auto;
+  right: 20px;
+  *margin-right: auto;
+  *margin-left: .3em;
+}
+
+.control-assetlist p.parent.parent a.link,
+.control-assetlist ul li.parent a.link {
+  padding-left: auto;
+  padding-right: 41px;
+}
+.control-assetlist p.parent.parent a.link:after,
+.control-assetlist ul li.parent a.link:after {
+  left: auto;
+  right: 22px;
+  *margin-right: auto;
+  *margin-left: .3em;
+}
+.control-assetlist ul li.active a.link:after {
+  left: auto;
+  right: 0;
+}
+.control-assetlist ul li div.controls {
+  right: auto;
+  left: 45px;
+}
+.control-assetlist ul li div.controls a.control:before {
+  margin-right: auto;
+  margin-left: 0;
+}
+.control-assetlist ul li .checkbox {
+  right: auto;
+  left: 17px;
+}
+.control-assetlist ul li .checkbox label {
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.select2-drop .select2-search input{
+    background-position: 0 -84px !important;
+}

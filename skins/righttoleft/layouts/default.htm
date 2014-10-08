@@ -2,6 +2,7 @@
 <html dir="rtl" lang="<?= Config::get('app.locale', 'en') ?>" class="no-js <?= $this->makeLayoutPartial('browser_detector') ?>">
     <head>
         <?= $this->makeLayoutPartial('head') ?>
+        <link href="<?= Backend::skinAsset('assets/css/overwrite.css') ?>" rel="stylesheet">
     </head>
     <body class="<?= $this->bodyClass ?>">
         <div id="layout-canvas">
