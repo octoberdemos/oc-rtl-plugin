@@ -1,0 +1,178 @@
+.report-container > ul .item .content .close {
+  right: auto;
+  left: 10px;
+}
+.report-container > ul .item .content .edit-widget:before{
+    left: auto;
+    right: 0;
+}
+.report-container > ul.add-delete .item .content .edit-widget{
+    left: 30px;
+    right: auto;
+}
+.report-container > ul .item .content .drag-handle{
+    right: 15px;
+    left: auto;
+}
+.report-widget h3{
+    padding-right: 15px;
+}
+
+.control-assetlist p.parent.active a:after,
+.control-assetlist ul li.active a:after {
+  left: auto;
+  right: 0;
+}
+.control-assetlist p.parent a.link,
+.control-assetlist ul li a.link {
+  padding: 10px 20px 10px 50px;
+}
+.control-assetlist p.parent.directory a.link,
+.control-assetlist ul li.directory a.link,
+.control-assetlist p.parent.parent a.link,
+.control-assetlist ul li.parent a.link {
+  padding-left: auto;
+  padding-right: 40px;
+}
+.control-assetlist p.parent.directory a.link:after,
+.control-assetlist ul li.directory a.link:after,
+.control-assetlist p.parent.parent a.link:after,
+.control-assetlist ul li.parent a.link:after {
+  left: auto;
+  right: 20px;
+  *margin-right: auto;
+  *margin-left: .3em;
+}
+
+.control-assetlist p.parent.parent a.link,
+.control-assetlist ul li.parent a.link {
+  padding-left: auto;
+  padding-right: 41px;
+}
+.control-assetlist p.parent.parent a.link:after,
+.control-assetlist ul li.parent a.link:after {
+  left: auto;
+  right: 22px;
+  *margin-right: auto;
+  *margin-left: .3em;
+}
+.control-assetlist ul li.active a.link:after {
+  left: auto;
+  right: 0;
+}
+.control-assetlist ul li div.controls {
+  right: auto;
+  left: 45px;
+}
+.control-assetlist ul li div.controls a.control:before {
+  margin-right: auto;
+  margin-left: 0;
+}
+.control-assetlist ul li .checkbox {
+  right: auto;
+  left: 17px;
+}
+.control-assetlist ul li .checkbox label {
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.select2-drop .select2-search input{
+    background-position: 0 -84px !important;
+}
+
+
+
+.draggable-component-item > div,
+.component-list .components div.layout-cell > div,
+div.control-componentlist div.components div.layout-cell > div {
+  white-space: normal;
+  color: #475354;
+  position: relative;
+  border-right: none;
+  border-left: 1px solid #ecf0f1;
+}
+.draggable-component-item > div:before,
+.component-list .components div.layout-cell > div:before,
+div.control-componentlist div.components div.layout-cell > div:before {
+  left: auto;
+  right: 15px;
+}
+.draggable-component-item > div:after,
+.component-list .components div.layout-cell > div:after,
+div.control-componentlist div.components div.layout-cell > div:after {
+  right: auto;
+  left: 0;
+  text-indent: 3px;
+  *margin-right: auto;
+  *margin-left: .3em;
+}
+div.control-componentlist div.components div.layout-cell:first-child {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+div.control-componentlist div.components div.layout-cell:last-child {
+  margin-right: auto;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  margin-left: 0;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+div.control-componentlist div.components div.layout-cell:last-child > div {
+  border-left: none;
+}
+div.control-componentlist div.components div.layout-cell > div.popover-highlight {
+  border-right-color: inherit;
+  border-left-color: rgba(0, 0, 0, 0);
+}
+
+div.control-componentlist div.components div.layout-cell > div span.name {
+  padding-left: auto;
+  padding-right: 38px;
+}
+div.control-componentlist div.components div.layout-cell > div span.alias:before {
+  margin-right: auto;
+  margin-left: 4px;
+}
+div.control-componentlist div.components div.layout-cell > div a.remove {
+  right: auto;
+  left: 5px;
+}
+.component-list .components div.layout div.layout-row div.layout-cell:last-child > div {
+  border-right: inherit;
+  border-left: none;
+}
+.component-list .components div.layout div.layout-row div.layout-cell > div:before {
+  text-indent: 4px;
+  *margin-right: auto;
+  *margin-left: .3em;
+  left: 15px;
+  right: auto;
+}
+.component-list .components div.layout.single div.layout-row > div.layout-cell > div {
+  border-right: inherit;
+  border-left: none;
+}
+.component-list .components div.layout.single div.layout-row > div.layout-cell > div:before {
+  right: auto;
+  left: 55.5%;
+}
+.control-filelist.component-list ul li div.group h4 a {
+  padding-left: auto;
+  padding-right: 33px;
+}
+.control-filelist.component-list ul li div.group h4 a:before {
+  left: auto;
+  right: 0;
+}
+.control-filelist.component-list ul li div.group span.description {
+  padding-left: auto;
+  padding-right: 33px;
+}
+.control-filelist.component-list ul li div.group i {
+  left: auto;
+  right: 22px;
+}
