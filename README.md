@@ -21,7 +21,7 @@ Update the backend configuration file `config/backend.php`:
 |
 */
 
-'skin' => 'Acme\Rtl\Skins\RightToLeft',
+'skin' => \Acme\Rtl\Skins\RightToLeft::class,
 ```
 
 Now the Right-To-Left backend skin is enabled.
@@ -37,13 +37,12 @@ plugins/
   acme/                      <== Plugin starts here
     demo/
       skins/                 <== Skins folder
-
         custom/              <== Skin resource directory
             assets/          <== Assets directory
               css/
                 october.css  <== CSS override file
             layouts/         <== Layouts directory
-                _head.htm    <== Layout override file
+                _head.php    <== Layout override file
 
         Custom.php           <== Skin registration file
 ```
@@ -60,14 +59,14 @@ modules/backend/assets/css/october.css
 plugins/acme/demo/skins/custom/assets/css/october.css
 ```
 
-The **Layout override file** called **_head.htm** will override the following:
+The **Layout override file** called **_head.php** will override the following:
 
 ```
 // Default (fallback) file
-modules/backend/layouts/_head.htm
+modules/backend/layouts/_head.php
 
 // Skin override file
-plugins/acme/demo/skins/custom/layouts/_head.htm
+plugins/acme/demo/skins/custom/layouts/_head.php
 ```
 
 Inside the **Skin registation file** it should simply provide a name:
